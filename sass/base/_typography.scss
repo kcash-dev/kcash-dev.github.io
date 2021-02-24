@@ -1,0 +1,93 @@
+// font-family: 'Cherry Cream Soda', cursive;
+// font-family: 'Raleway', sans-serif;
+
+html body {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+i {
+    font-size: 8rem;
+    color: $color-primary;
+
+    &:hover {
+        color: $color-secondary;
+    }
+}
+
+h {
+    
+    &1 {
+        font-family: 'Cherry Cream Soda', cursive;
+        font-size: 13rem;
+        color: $color-primary;
+    }
+
+    &2 {
+        font-family: 'Cherry Cream Soda', cursive;
+        font-size: 10rem;
+        color: $color-primary;
+        text-align: center;
+    }
+
+    &3 {
+        font-family: 'Cherry Cream Soda', cursive;
+        font-size: 7rem;
+        color: $color-primary;
+        text-align: center;
+    }
+
+    &4 {
+        font-family: 'Cherry Cream Soda', cursive;
+        font-size: 5rem;
+        color: $color-primary;
+        text-align: center;
+    }
+
+    &5 {
+        font-family: 'Cherry Cream Soda', cursive;
+        font-size: 4rem;
+        color: $color-primary;
+        text-align: center;
+    }
+
+    &6 {
+        font-family: 'Cherry Cream Soda', cursive;
+        font-size: 3rem;
+        color: $color-primary;
+        text-align: center;
+    }
+}
+
+.project-info {
+    font-size: 2.5rem;
+}
+
+.nav {
+    &__link {
+        color: $color-primary;
+        font-family: 'Cherry Cream Soda', cursive;
+        font-size: 4rem;
+    }
+}
+
+.story__text {
+    font-size: 2.5rem;
+}
+
+.section-about {
+
+    &__btn {
+        color: $color-white;
+        font-weight: 600;
+        font-size: 3.5rem;
+        text-align: center;
+    }
+}
+
+.section-projects__h3 {
+    color: $color-primary;
+}

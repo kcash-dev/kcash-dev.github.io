@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Kyle Cash - Web Developer</title>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="main-text">
+            <div class="main-text__shape">
+                <h1 class="main-text__h1 pl3">
+                    &lt;kcashdev&gt;
+                </h1>
+                <h4 class="main-text__h4 pl5">
+                    front-end web developer
+                </h4>
+            </div>
+        </div>
+        <div class="profile-photo">
+            <figure class="profile-photo__shape">
+                <img class="profile-photo__img" src="./images/profile-cartoon-1.png" alt="Picture of developer">
+                <figcaption class="profile-photo__caption">
+                    Hey there! My name is Kyle and I'm a front-end web developer. 
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Nav -->
+        <section class="nav u-margin-top-big">
+            <div class="row">
+                <div class="col-1-of-4">
+                    <a id="nav__about" class="nav__link">about</a>
+                </div>
+                <div class="col-1-of-4">
+                    <a id="nav__projects" class="nav__link">projects</a>
+                </div>
+                <div class="col-1-of-4">
+                    <a id="nav__articles" class="nav__link">articles</a>
+                </div>
+                <div class="col-1-of-4">
+                    <a id="nav__contact" class="nav__link">contact</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="section-about ">
+            <div class="bg-video bg-video">
+                <video class="bg-video__content" autoplay muted loop>
+                    <source src="./images/about-bg.mp4" loading="lazy" type="video/mp4">
+                    Your browser is not supported
+                </video>
+            </div>
+            <div class="section-about__container u-padding-bottom-huge">
+                <h2 class="pt3 u-margin-bottom-big">
+                    about
+                </h2>
+                <div class="story">
+                    <figure class="story__shape">
+                        <img class="story__img" src="./images/about-pic.png" alt="Kyle running in a race">
+                    </figure>
+                    <div class="story__text p3">
+                        <p>
+                            Hey there! My name is Kyle, I'm a front-end web developer (if you haven't figured that out already) and I'm from the United States. I am still new to
+                            web development, but I have a burning curiousity about learning new things and making cool things happen. Before I began my coding journey,
+                            I was an English teacher. Many of my ideas for my side projects have come from trying to make my job easier as a teacher. I enjoy doing this
+                            using Javascript, but hope to continue learning other technologies to expand my capabilities.
+                            <br>
+                            <br>
+                            How about something about myself that doesn't include web development, you ask? Well sure! Firstly, I am a staunch hater of brussels sprouts.
+                            Other than those, I love almost all foods.I am an avid trail runner. In addition to sports, I enjoy traveling and have lived abroad for the majority of my recent life. 
+                            While traveling, I enjoy learning the local language the best I can and enjoy making a fool out of myself in front of locals as I try to speak it.
+                            <br>
+                            <br>
+                            If you would like to know anything else or are interested in working with me (unless you like brussels sprouts), click the button below to contact me.
+                        </p>
+                    </div>
+                </div>
+                <a href="mailto:kcashdev@gmail.com?subject=subject text"class="btn section-about__btn p2">Send me a message</a>
+            </div>
+        </section>
+        
+
+        <!-- Projects -->
+        <section class="section-projects">
+            <div class="bg-video">
+                <video class="bg-video__content" loading="lazy" autoplay muted loop>
+                    <source src="./images/scrolling-code.mp4" type="video/mp4">
+                    Your browser is not supported
+                </video>
+            </div>
+            <div class="section-projects__container u-padding-bottom-huge">
+                <h2 class="pt3 u-margin-bottom-big">
+                    projects
+                </h2>
+                <div class="row">
+                    <h3 class="section-projects__h3">apps</h3>
+                    <div class="col-1-of-3 section-projects__card section-projects__card--1">
+                        <div class="section-projects__card__side section-projects__card__side--front section-projects__card--front--1">
+                            <video class="section-projects__card__project" loading="lazy" autoplay muted loop width="80%">
+                                <source src="./images/student-tracker-project.mp4">
+                                <source src="./images/student-tracker-project.webm">
+                                Your browser is not supported
+                            </video>
+                            <div class="section-projects__card__project__caption">
+                                <h4>student tracker</h4>
+                            </div>
+                        </div>
+                        <div class="section-projects__card__side section-projects__card__side--back section-projects__card--back--1">
+                            <p class="project-info u-margin-top-medium p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam tenetur maiores molestias eum sint placeat iste, 
+                                in dolor sit voluptatibus quas animi repellendus quia quisquam eveniet excepturi fuga doloribus a!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-1-of-3 section-projects__card section-projects__card--2">
+                        <div class="section-projects__card__side section-projects__card__side--front section-projects__card--front--2">
+                            <video class="section-projects__card__project" loading="lazy" autoplay muted loop>
+                                <source src="./images/parts-of-speech-project.mp4">
+                                <source src="./images/parts-of-speech.webm">
+                                Your browser is not supported
+                            </video>
+                            <div class="section-projects__card__project__caption">
+                                <h4>parts of speech</h4>
+                            </div>
+                        </div>
+                        <div class="section-projects__card__side section-projects__card__side--back section-projects__card--back--2">
+                            <p class="project-info u-margin-top-medium p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam tenetur maiores molestias eum sint placeat iste, 
+                                in dolor sit voluptatibus quas animi repellendus quia quisquam eveniet excepturi fuga doloribus a!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-1-of-3 section-projects__card section-projects__card--3">
+                        <div class="section-projects__card__side section-projects__card__side--front section-projects__card--front--3">
+                            <video class="section-projects__card__project" loading="lazy" autoplay muted loop>
+                                <source src="./images/workout-project.mp4">
+                                Your browser is not supported
+                            </video>
+                            <div class="section-projects__card__project__caption">
+                                <h4>workout tracker</h4>
+                            </div>
+                        </div>
+                        <div class="section-projects__card__side section-projects__card__side--back section-projects__card--back--3">
+                            <p class="project-info u-margin-top-medium p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam tenetur maiores molestias eum sint placeat iste, 
+                                in dolor sit voluptatibus quas animi repellendus quia quisquam eveniet excepturi fuga doloribus a!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <h3 class="section-projects__h3">websites</h3>
+                    <div class="col-1-of-3 section-projects__card section-projects__card--1">
+                        <div class="section-projects__card__side section-projects__card__side--front section-projects__card--front--1">
+                            <video class="section-projects__card__project" loading="lazy" autoplay muted loop>
+                                <source src="./images/garbage-miles-project.mp4">
+                                Your browser is not supported
+                            </video>
+                            <div class="section-projects__card__project__caption">
+                                <h4>garbage miles</h4>
+                            </div>
+                        </div>
+                        <div class="section-projects__card__side section-projects__card__side--back section-projects__card--back--1">
+                            <p class="project-info u-margin-top-medium p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam tenetur maiores molestias eum sint placeat iste, 
+                                in dolor sit voluptatibus quas animi repellendus quia quisquam eveniet excepturi fuga doloribus a!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-1-of-3 section-projects__card section-projects__card--2">
+                        <div class="section-projects__card__side section-projects__card__side--front section-projects__card--front--2">
+                            <video class="section-projects__card__project" loading="lazy" autoplay muted loop>
+                                <source src="./images/jacks-snacks-project.mp4">
+                                Your browser is not supported
+                            </video>
+                            <div class="section-projects__card__project__caption">
+                                <h4>jack's snacks</h4>
+                            </div>
+                        </div>
+                        <div class="section-projects__card__side section-projects__card__side--back section-projects__card--back--2">
+                            <p class="project-info u-margin-top-medium p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam tenetur maiores molestias eum sint placeat iste, 
+                                in dolor sit voluptatibus quas animi repellendus quia quisquam eveniet excepturi fuga doloribus a!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-1-of-3 section-projects__card section-projects__card--3">
+                        <div class="section-projects__card__side section-projects__card__side--front section-projects__card--front--3">
+                            <video class="section-projects__card__project" loading="lazy" autoplay muted loop>
+                                <source src="./images/cfm-project.mp4">
+                            </video>
+                            <div class="section-projects__card__project__caption">
+                                <h4>convenient food mart</h4>
+                            </div>
+                        </div>
+                        <div class="section-projects__card__side section-projects__card__side--back section-projects__card--back--3">
+                            <p class="project-info u-margin-top-medium p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam tenetur maiores molestias eum sint placeat iste, 
+                                in dolor sit voluptatibus quas animi repellendus quia quisquam eveniet excepturi fuga doloribus a!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Articles -->
+        <section class="section-articles u-margin-top-medium">
+            <div class="bg-video">
+                <video class="bg-video__content" loading="lazy" autoplay muted loop>
+                    <source src="./images/writing.mp4" type="video/mp4">
+                    Your browser is not supported
+                </video>
+            </div>
+            <div class="section-articles__container u-padding-bottom-huge">
+                <h2 class="pt3 u-margin-bottom-big">
+                    articles
+                </h2>
+                <div class="section-articles__card section-articles__card--1">
+                    <div class="section-articles__card__side section-articles__card__side--front section-articles__card--front--1">
+                        <img src="./images/coding.png" loading="lazy" class="section-articles__card__project" alt="">
+                        <div class="section-articles__card__project__caption">
+                            <h3>How to use Firebase/Firestore</h3>
+                        </div>
+                    </div>
+                    <div class="section-articles__card__side section-articles__card__side--back section-articles__card--back--1">
+                        <h5 class="u-margin-top-medium">Student Tracker</h5>
+                        <p class="project-info u-margin-top-medium p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam tenetur maiores molestias eum sint placeat iste, 
+                            in dolor sit voluptatibus quas animi repellendus quia quisquam eveniet excepturi fuga doloribus a!
+                        </p>
+                    </div>
+                </div>
+                <div class="section-articles__card section-articles__card--2">
+                    <div class="section-articles__card__side section-articles__card__side--front section-articles__card--front--2">
+                        <img src="./images/computers.png" loading="lazy" class="section-articles__card__project" alt="">
+                        <div class="section-articles__card__project__caption">
+                            <h3>This is what I learned today</h3>
+                        </div>
+                    </div>
+                    <div class="section-articles__card__side section-articles__card__side--back section-articles__card--back--2">
+                        <h5 class="u-margin-top-medium">Sample App</h5>
+                        <p class="project-info u-margin-top-medium p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam tenetur maiores molestias eum sint placeat iste, 
+                            in dolor sit voluptatibus quas animi repellendus quia quisquam eveniet excepturi fuga doloribus a!
+                        </p>
+                    </div>
+                </div>
+                <div class="section-articles__card section-articles__card--3">
+                    <div class="section-articles__card__side section-articles__card__side--front section-articles__card--front--3">
+                        <img src="./images/teamwork.png" loading="lazy" class="section-articles__card__project" alt="">
+                        <div class="section-articles__card__project__caption">
+                            <h3>Using SASS</h3>
+                        </div>
+                    </div>
+                    <div class="section-articles__card__side section-articles__card__side--back section-articles__card--back--3">
+                        <h5 class="u-margin-top-medium">Sample Project</h5>
+                        <p class="project-info u-margin-top-medium p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam tenetur maiores molestias eum sint placeat iste, 
+                            in dolor sit voluptatibus quas animi repellendus quia quisquam eveniet excepturi fuga doloribus a!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section-contact u-margin-top-medium u-padding-bottom-huge">
+            <div class="bg-video bg-video--about">
+                <video class="bg-video__content" loading="lazy" autoplay muted loop>
+                    <source src="./images/contact.mp4" type="video/mp4">
+                    Your browser is not supported
+                </video>
+            </div>
+            <div class="section-contact__container">
+                <h2 class="pt3 u-margin-bottom-big">
+                    contact
+                </h2>
+                <div class="story">
+                    <h5 class="u-margin-bottom-big">Feel free to contact me on any of these platforms</h5>
+                    <div class="row">
+                        <div class="col-1-of-4">
+                            <div class="icon icon__linkedin">
+                                <a href="https://www.linkedin.com/in/kcashdev" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-1-of-4">
+                            <div class="icon icon__github">
+                                <a href="https://github.com/kcash-dev" target="_blank"><i class="fab fa-github-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-1-of-4">
+                            <div class="icon icon__twitter">
+                                <a href="https://twitter.com/kcashdev" target="_blank"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-1-of-4">
+                            <div class="icon icon__email">
+                                <a href="mailto:kcashdev@gmail.com?subject=subject text"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://use.fontawesome.com/88762a3ba7.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

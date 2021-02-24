@@ -1,0 +1,27 @@
+.icon {
+    transform: translateX(6rem) skew(-2deg);
+    transition: all .5s;
+    &:hover {
+        transform: translateY(-.7rem) translateX(6rem) skew(-2deg);
+    }
+
+    &:active {
+        transform: translateY(0) translateX(6rem) skew(-2deg);
+    }
+
+    &__linkedin {
+
+    }
+
+    &__github {
+        
+    }
+
+    &__twitter {
+        
+    }
+
+    &__email {
+        
+    }
+}

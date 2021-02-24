@@ -1,0 +1,33 @@
+.section-projects {
+    position: relative;
+    background-image: linear-gradient(to bottom, rgba($color-black, .2), rgba($color-secondary, .2));
+}
+
+.section-about {
+    position: relative;
+    background-image: linear-gradient(to bottom, rgba($color-black, .2), rgba($color-secondary, .2));
+
+    &__btn {
+        width: 40rem;
+        height: 10rem;
+        box-shadow: $shadow;
+        transition: all .5s;
+        &:hover {
+            transform: translateY(-.7rem) skewX(-8deg);
+        }
+
+        &:active {
+            transform: translateY(0) skewX(-8deg);
+        }
+    }
+}
+
+.section-articles {
+    position: relative;
+    background-image: linear-gradient(to bottom, rgba($color-black, .2), rgba($color-secondary, .2));
+}
+
+.section-contact {
+    position: relative;
+    background-image: linear-gradient(to bottom, rgba($color-black, .2), rgba($color-secondary, .2));
+}

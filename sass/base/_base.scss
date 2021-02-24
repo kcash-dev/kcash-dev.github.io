@@ -1,0 +1,33 @@
+// Body
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+
+    body {
+        background-color: $color-black;
+        font-size: $default-font-size;
+        line-height: 1.7;
+        box-sizing: border-box;
+        
+    }
+}
+
+.section-projects,
+.section-articles,
+.section-about,
+.section-contact {
+    display: none;
+}
+
+i {
+    transform: skewX(12deg);
+    margin: 0 auto;
+}
