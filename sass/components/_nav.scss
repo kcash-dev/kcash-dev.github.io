@@ -8,7 +8,7 @@
 #nav__articles,
 #nav__contact {
     &:hover {
-        text-transform: uppercase;
+        background-color: $color-white;
         cursor: pointer;
     }
 }
