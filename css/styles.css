@@ -638,11 +638,13 @@ li {
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .story__shape {
         width: 25rem;
-        height: 25rem; } }
+        height: 25rem;
+        transform: skewX(6deg); } }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .story__shape {
         width: 20rem;
-        height: 20rem; } }
+        height: 20rem;
+        transform: skewX(4deg); } }
     @media only screen and (min-width: 600px) and (max-width: 767px) {
       .story__shape {
         width: 18rem;
@@ -678,7 +680,7 @@ li {
         transform: skewX(0deg);
         padding-top: 2rem; } }
   .story:hover .story__img {
-    transform: translateX(-6rem) scale(1.3); }
+    transform: scale(1.3); }
 
 .icon {
   transform: translateX(6rem) skew(-2deg);
