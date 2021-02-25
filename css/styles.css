@@ -58,10 +58,10 @@ i {
   @media (min-width: 768px) and (max-width: 991px) {
     i {
       font-size: 6rem; } }
-  @media (min-width: 576px) and (max-width: 767px) {
+  @media (min-width: 600px) and (max-width: 767px) {
     i {
       font-size: 5rem; } }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 599px) {
     i {
       font-size: 4rem; } }
 
@@ -75,12 +75,12 @@ h1 {
   @media (min-width: 768px) and (max-width: 991px) {
     h1 {
       font-size: 7rem; } }
-  @media (min-width: 576px) and (max-width: 767px) {
-    h1 {
-      font-size: 5.5rem; } }
-  @media only screen and (max-width: 600px) {
+  @media (min-width: 600px) and (max-width: 767px) {
     h1 {
       font-size: 5rem; } }
+  @media only screen and (max-width: 599px) {
+    h1 {
+      font-size: 3rem; } }
 
 h2 {
   font-family: 'Cherry Cream Soda', cursive;
@@ -93,10 +93,10 @@ h2 {
   @media (min-width: 768px) and (max-width: 991px) {
     h2 {
       font-size: 8rem; } }
-  @media (min-width: 576px) and (max-width: 767px) {
+  @media (min-width: 600px) and (max-width: 767px) {
     h2 {
       font-size: 7rem; } }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 599px) {
     h2 {
       font-size: 6rem; } }
 
@@ -111,10 +111,10 @@ h3 {
   @media (min-width: 768px) and (max-width: 991px) {
     h3 {
       font-size: 5rem; } }
-  @media (min-width: 576px) and (max-width: 767px) {
+  @media (min-width: 600px) and (max-width: 767px) {
     h3 {
       font-size: 4.5rem; } }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 599px) {
     h3 {
       font-size: 4rem; } }
 
@@ -129,10 +129,10 @@ h4 {
   @media (min-width: 768px) and (max-width: 991px) {
     h4 {
       font-size: 4rem; } }
-  @media (min-width: 576px) and (max-width: 767px) {
+  @media (min-width: 600px) and (max-width: 767px) {
     h4 {
       font-size: 3.5rem; } }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 599px) {
     h4 {
       font-size: 3rem; } }
 
@@ -147,12 +147,12 @@ h5 {
   @media (min-width: 768px) and (max-width: 991px) {
     h5 {
       font-size: 3rem; } }
-  @media (min-width: 576px) and (max-width: 767px) {
+  @media (min-width: 600px) and (max-width: 767px) {
     h5 {
       font-size: 2rem; } }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 599px) {
     h5 {
-      font-size: 1.5rem; } }
+      font-size: 1.7rem; } }
 
 h6 {
   font-family: 'Cherry Cream Soda', cursive;
@@ -165,10 +165,10 @@ h6 {
   @media (min-width: 768px) and (max-width: 991px) {
     h6 {
       font-size: .8rem; } }
-  @media (min-width: 576px) and (max-width: 767px) {
+  @media (min-width: 600px) and (max-width: 767px) {
     h6 {
       font-size: .6rem; } }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 599px) {
     h6 {
       font-size: .4rem; } }
 
@@ -186,10 +186,10 @@ li {
   @media (min-width: 768px) and (max-width: 991px) {
     .nav__link {
       font-size: 3rem; } }
-  @media (min-width: 576px) and (max-width: 767px) {
+  @media (min-width: 600px) and (max-width: 767px) {
     .nav__link {
       font-size: 2rem; } }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 599px) {
     .nav__link {
       font-size: 1.5rem; } }
 
@@ -201,10 +201,10 @@ li {
   @media (min-width: 768px) and (max-width: 991px) {
     .story__text {
       font-size: 2rem; } }
-  @media (min-width: 576px) and (max-width: 767px) {
+  @media (min-width: 600px) and (max-width: 767px) {
     .story__text {
       font-size: 1.5rem; } }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 599px) {
     .story__text {
       font-size: 1.7rem; } }
 
@@ -219,10 +219,10 @@ li {
   @media (min-width: 768px) and (max-width: 991px) {
     .section-about__btn {
       font-size: 2.5rem; } }
-  @media (min-width: 576px) and (max-width: 767px) {
+  @media (min-width: 600px) and (max-width: 767px) {
     .section-about__btn {
       font-size: 2rem; } }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 599px) {
     .section-about__btn {
       font-size: 1.5rem; } }
 
@@ -237,10 +237,10 @@ li {
   @media (min-width: 768px) and (max-width: 991px) {
     .section-projects__text {
       font-size: 1.3rem; } }
-  @media (min-width: 576px) and (max-width: 767px) {
+  @media (min-width: 600px) and (max-width: 767px) {
     .section-projects__text {
       font-size: 1.7rem; } }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 599px) {
     .section-projects__text {
       font-size: 1.5rem; } }
 
@@ -252,11 +252,11 @@ li {
   .section-articles__card__project__caption h4 {
     font-size: 3rem; } }
 
-@media (min-width: 576px) and (max-width: 767px) {
+@media (min-width: 600px) and (max-width: 767px) {
   .section-articles__card__project__caption h4 {
     font-size: 3rem; } }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 599px) {
   .section-articles__card__project__caption h4 {
     font-size: 2rem; } }
 
@@ -271,7 +271,7 @@ li {
   @media only screen and (min-width: 600px) and (max-width: 767px) {
     .project-info {
       font-size: 2rem; } }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 599px) {
     .project-info {
       font-size: 1.7rem; } }
 
@@ -279,6 +279,18 @@ li {
   font-size: 4rem;
   text-align: center;
   font-weight: 400; }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .contact-text {
+      font-size: 3.5rem; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .contact-text {
+      font-size: 3rem; } }
+  @media (min-width: 600px) and (max-width: 767px) {
+    .contact-text {
+      font-size: 2.5rem; } }
+  @media only screen and (max-width: 599px) {
+    .contact-text {
+      font-size: 2rem; } }
 
 .html {
   font-weight: 600; }
@@ -427,8 +439,9 @@ li {
         height: 35rem; } }
     @media only screen and (max-width: 600px) {
       .profile-photo__shape {
-        width: 30rem;
-        height: 30rem;
+        width: 35rem;
+        height: 35rem;
+        transform: translateY(-15rem);
         right: 0%; } }
   .profile-photo__img {
     width: 100%;
@@ -482,7 +495,7 @@ li {
     @media only screen and (min-width: 600px) and (max-width: 767px) {
       .section-projects__card__side {
         height: 85%; } }
-    @media only screen and (max-width: 599px) {
+    @media only screen and (min-width: 500px) and (max-width: 599px) {
       .section-projects__card__side {
         height: 80%; } }
     .section-projects__card__side--back {
@@ -771,12 +784,28 @@ li {
     height: 100%;
     width: 100%;
     clip-path: polygon(0 0, 100% 0%, 100% 0%, 0 100%); }
+    @media only screen and (max-width: 599px) {
+      .main-text__shape {
+        clip-path: none;
+        background-image: linear-gradient(to bottom, #1cb3dd, #000); } }
   .main-text__h1 {
     text-transform: uppercase; }
+    @media only screen and (max-width: 599px) {
+      .main-text__h1 {
+        position: absolute;
+        bottom: 0%;
+        transform: translateY(3rem); } }
   .main-text__h5 {
     text-align: left;
     width: 50%;
     background-color: #fff; }
+    @media only screen and (max-width: 599px) {
+      .main-text__h5 {
+        text-align: left;
+        width: 70%;
+        height: 6rem;
+        position: absolute;
+        bottom: 10%; } }
 
 .section-projects {
   position: relative;

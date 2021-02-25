@@ -20,15 +20,34 @@
         height: 100%;
         width: 100%;
         clip-path: polygon(0 0, 100% 0%, 100% 0%, 0 100%);
+
+        @media only screen and (max-width: 599px) {
+            clip-path: none;
+            background-image: linear-gradient(to bottom, $color-secondary, $color-black);
+        }
     }
 
     &__h1 {
         text-transform: uppercase;
+
+        @media only screen and (max-width: 599px) {
+            position: absolute;
+            bottom: 0%;
+            transform: translateY(3rem);
+        }
     }
 
     &__h5 {
         text-align: left;
         width: 50%;
         background-color: $color-white;
+
+        @media only screen and (max-width: 599px) {
+            text-align: left;
+            width: 70%;
+            height: 6rem;
+            position: absolute;
+            bottom: 10%;
+        }
     }
 }
