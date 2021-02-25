@@ -3,7 +3,8 @@
 *::before {
   margin: 0;
   padding: 0;
-  box-sizing: inherit; }
+  box-sizing: inherit;
+  width: 100%; }
 
 html {
   font-size: 62.5%; }
@@ -615,11 +616,13 @@ li {
   @media only screen and (min-width: 600px) and (max-width: 767px) {
     .story {
       width: 100%;
-      transform: skewX(0deg); } }
+      transform: skewX(0deg);
+      padding: .5rem; } }
   @media only screen and (max-width: 600px) {
     .story {
       width: 100%;
-      transform: skewX(0deg); } }
+      transform: skewX(0deg);
+      padding: .5rem; } }
   .story__shape {
     width: 30rem;
     height: 30rem;
