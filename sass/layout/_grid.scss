@@ -62,19 +62,22 @@
     .col-1-of-3 {
         width: calc((100% - 2 * #{$gutter-horizontal}) / 3);
 
-        @media (min-width: 992px) and (max-width: 1199px) {
+        @media only screen and (min-width: 1200px) {
             
         }
 
-        @media (min-width: 768px) and (max-width: 991px) {
+        @media only screen and (min-width: 992px) and (max-width: 1199px) {
+        }
+
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
            width: 100%;
         }
 
-        @media (min-width: 576px) and (max-width: 767px) { 
+        @media only screen and (min-width: 600px) and (max-width: 767px) { 
             width: 100%;
         }
 
-        @media (max-width: 575px) {
+        @media only screen and (max-width: 600px) {
             width: 100%;
         }
     }

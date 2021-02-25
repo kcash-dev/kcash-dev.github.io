@@ -17,7 +17,11 @@ i {
         color: $color-secondary;
     }
 
-    @media (min-width: 992px) and (max-width: 1199px) {
+    @media only screen and (min-width: 1200px) {
+
+    }
+
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
         font-size: 7rem;
     }
 
@@ -29,7 +33,7 @@ i {
         font-size: 7rem;
     }
 
-    @media (max-width: 575px) {
+    @media only screen and (max-width: 600px) {
         font-size: 7rem;
     }
 }
@@ -41,7 +45,11 @@ h {
         font-size: 11rem;
         color: $color-primary;
 
-        @media (min-width: 992px) and (max-width: 1199px) {
+        @media only screen and (min-width: 1200px) {
+
+        }
+
+        @media only screen and (min-width: 992px) and (max-width: 1199px) {
             font-size: 9rem;
         }
 
@@ -53,7 +61,7 @@ h {
             font-size: 5rem;
         }
 
-        @media (max-width: 575px) {
+        @media only screen and (max-width: 600px) {
             font-size: 3rem;
         }
     }
@@ -64,7 +72,11 @@ h {
         color: $color-primary;
         text-align: center;
 
-        @media (min-width: 992px) and (max-width: 1199px) {
+        @media only screen and (min-width: 1200px) {
+
+        }
+
+        @media only screen and (min-width: 992px) and (max-width: 1199px) {
             font-size: 9rem;
         }
 
@@ -76,7 +88,7 @@ h {
             font-size: 7rem;
         }
 
-        @media (max-width: 575px) {
+        @media only screen and (max-width: 600px) {
             font-size: 6rem;
         }
     }
@@ -87,7 +99,11 @@ h {
         color: $color-primary;
         text-align: center;
 
-        @media (min-width: 992px) and (max-width: 1199px) {
+        @media only screen and (min-width: 1200px) {
+
+        }
+
+        @media only screen and (min-width: 992px) and (max-width: 1199px) {
             font-size: 6rem;
         }
 
@@ -99,7 +115,7 @@ h {
             font-size: 4.5rem;
          }
 
-        @media (max-width: 575px) {
+        @media only screen and (max-width: 600px) {
             font-size: 4rem;
         }
     }
@@ -110,7 +126,11 @@ h {
         color: $color-primary;
         text-align: center;
 
-        @media (min-width: 992px) and (max-width: 1199px) {
+        @media only screen and (min-width: 1200px) {
+
+        }
+
+        @media only screen and (min-width: 992px) and (max-width: 1199px) {
             font-size: 4.5rem;
         }
 
@@ -122,7 +142,7 @@ h {
             font-size: 3.5rem;
         }
 
-        @media (max-width: 575px) {
+        @media only screen and (max-width: 600px) {
             font-size: 3rem;
         }
     }
@@ -133,7 +153,11 @@ h {
         color: $color-primary;
         text-align: center;
 
-        @media (min-width: 992px) and (max-width: 1199px) {
+        @media only screen and (min-width: 1200px) {
+
+        }
+
+        @media only screen and (min-width: 992px) and (max-width: 1199px) {
             font-size: 3.5rem;
         }
 
@@ -145,7 +169,7 @@ h {
             font-size: 2rem;
         }
 
-        @media (max-width: 575px) {
+        @media only screen and (max-width: 600px) {
             font-size: 1.5rem;
         }
     }
@@ -156,7 +180,11 @@ h {
         color: $color-primary;
         text-align: center;
 
-        @media (min-width: 992px) and (max-width: 1199px) {
+        @media only screen and (min-width: 1200px) {
+
+        }
+
+        @media only screen and (min-width: 992px) and (max-width: 1199px) {
             font-size: 2rem;
         }
 
@@ -168,7 +196,7 @@ h {
             font-size: .6rem;
         }
 
-        @media (max-width: 575px) {
+        @media only screen and (max-width: 600px) {
             font-size: .4rem;
         }
     }
@@ -185,7 +213,11 @@ li {
         font-family: 'Cherry Cream Soda', cursive;
         font-size: 4rem;
 
-        @media (min-width: 992px) and (max-width: 1199px) {
+        @media only screen and (min-width: 1200px) {
+
+        }
+
+        @media only screen and (min-width: 992px) and (max-width: 1199px) {
             font-size: 3.5rem;
         }
 
@@ -197,7 +229,7 @@ li {
             font-size: 2rem;
         }
 
-        @media (max-width: 575px) {
+        @media only screen and (max-width: 600px) {
             font-size: 1.5rem;
         }
     }
@@ -206,7 +238,11 @@ li {
 .story__text {
     font-size: 2.5rem;
 
-    @media (min-width: 992px) and (max-width: 1199px) {
+    @media only screen and (min-width: 1200px) {
+
+    }
+
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
         font-size: 2rem;
     }
 
@@ -218,7 +254,7 @@ li {
         font-size: 2rem;
     }
 
-    @media (max-width: 575px) { 
+    @media only screen and (max-width: 600px) { 
         font-size: 1.7rem;
     }
 }
@@ -231,7 +267,11 @@ li {
         font-size: 3.5rem;
         text-align: center;
 
-        @media (min-width: 992px) and (max-width: 1199px) {
+        @media only screen and (min-width: 1200px) {
+
+        }
+
+        @media only screen and (min-width: 992px) and (max-width: 1199px) {
             font-size: 3rem;
         }
 
@@ -243,7 +283,7 @@ li {
             font-size: 2rem;
         }
 
-        @media (max-width: 575px) {
+        @media only screen and (max-width: 600px) {
             font-size: 1.5rem;
         }
     }
@@ -256,7 +296,12 @@ li {
     }
 
     &__text {
-        @media (min-width: 992px) and (max-width: 1199px) {
+
+        @media only screen and (min-width: 1200px) {
+
+        }
+
+        @media only screen and (min-width: 992px) and (max-width: 1199px) {
             font-size: 1.4rem;
         }
 
@@ -268,7 +313,7 @@ li {
             font-size: 1.7rem;
         }
 
-        @media (max-width: 575px) {
+        @media only screen and (max-width: 600px) {
             font-size: 1.5rem;
         }
     }
@@ -281,7 +326,12 @@ li {
 
             &__caption {
                 & h4 {
-                    @media (min-width: 992px) and (max-width: 1199px) {
+
+                    @media only screen and (min-width: 1200px) {
+
+                    }
+
+                    @media only screen and (min-width: 992px) and (max-width: 1199px) {
                         font-size: 4rem;
                     }
             
@@ -293,7 +343,7 @@ li {
                         font-size: 3rem;
                     }
             
-                    @media (max-width: 575px) {
+                    @media only screen and (max-width: 600px) {
                         font-size: 2rem;
                     }
                 }
@@ -305,19 +355,23 @@ li {
 .project-info {
     font-size: 2.5rem;
 
-    @media (min-width: 992px) and (max-width: 1199px) {
+    @media only screen and (min-width: 1200px) {
+        
+    }
+
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
         font-size: 2.5rem;
     }
 
-    @media (min-width: 768px) and (max-width: 991px) {
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
         font-size: 2.5rem;
     }
 
-    @media (min-width: 576px) and (max-width: 767px) { 
+    @media only screen and (min-width: 600px) and (max-width: 767px) { 
         font-size: 2rem;
     }
 
-    @media (max-width: 575px) {
+    @media only screen and (max-width: 600px) {
         font-size: 1.7rem;
     }
 }
