@@ -39,16 +39,16 @@ i {
     color: #1cb3dd; }
   @media (min-width: 992px) and (max-width: 1199px) {
     i {
-      font-size: 6rem; } }
+      font-size: 7rem; } }
   @media (min-width: 768px) and (max-width: 991px) {
     i {
-      font-size: 5rem; } }
+      font-size: 7rem; } }
   @media (min-width: 576px) and (max-width: 767px) {
     i {
-      font-size: 4rem; } }
+      font-size: 7rem; } }
   @media (max-width: 575px) {
     i {
-      font-size: 4rem; } }
+      font-size: 7rem; } }
 
 h1 {
   font-family: 'Cherry Cream Soda', cursive;
@@ -767,3 +767,9 @@ li {
 .section-contact {
   position: relative;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(28, 179, 221, 0.2)); }
+
+.contact-text {
+  transform: skew(8deg); }
+  @media (max-width: 575px) {
+    .contact-text {
+      transform: skew(0); } }
