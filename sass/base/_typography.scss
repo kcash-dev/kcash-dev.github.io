@@ -253,8 +253,75 @@ li {
     }
 }
 
-.section-projects__h3 {
-    color: $color-primary;
+.section-projects {
+
+    &__h3 {
+        color: $color-primary;
+    }
+
+    &__text {
+        @media (min-width: 992px) and (max-width: 1199px) {
+            font-size: 3rem;
+        }
+
+        @media (min-width: 768px) and (max-width: 991px) {
+            font-size: 2.5rem;
+        }
+
+        @media (min-width: 576px) and (max-width: 767px) { 
+            font-size: 2rem;
+        }
+
+        @media (max-width: 575px) {
+            font-size: 1.2rem;
+        }
+    }
+}
+
+.section-articles {
+    &__card {
+
+        &__project {
+
+            &__caption {
+                & h4 {
+                    @media (min-width: 992px) and (max-width: 1199px) {
+                        font-size: 3rem;
+                    }
+            
+                    @media (min-width: 768px) and (max-width: 991px) {
+                        font-size: 2.5rem;
+                    }
+            
+                    @media (min-width: 576px) and (max-width: 767px) { 
+                        font-size: 2rem;
+                    }
+            
+                    @media (max-width: 575px) {
+                        font-size: 2rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.project-info {
+    @media (min-width: 992px) and (max-width: 1199px) {
+        font-size: 3rem;
+    }
+
+    @media (min-width: 768px) and (max-width: 991px) {
+        font-size: 2.5rem;
+    }
+
+    @media (min-width: 576px) and (max-width: 767px) { 
+        font-size: 2rem;
+    }
+
+    @media (max-width: 575px) {
+        font-size: 1.7rem;
+    }
 }
 
 .contact-text {

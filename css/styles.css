@@ -217,6 +217,54 @@ li {
 .section-projects__h3 {
   color: #dd571c; }
 
+@media (min-width: 992px) and (max-width: 1199px) {
+  .section-projects__text {
+    font-size: 3rem; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .section-projects__text {
+    font-size: 2.5rem; } }
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .section-projects__text {
+    font-size: 2rem; } }
+
+@media (max-width: 575px) {
+  .section-projects__text {
+    font-size: 1.2rem; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .section-articles__card__project__caption h4 {
+    font-size: 3rem; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .section-articles__card__project__caption h4 {
+    font-size: 2.5rem; } }
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .section-articles__card__project__caption h4 {
+    font-size: 2rem; } }
+
+@media (max-width: 575px) {
+  .section-articles__card__project__caption h4 {
+    font-size: 2rem; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .project-info {
+    font-size: 3rem; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .project-info {
+    font-size: 2.5rem; } }
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .project-info {
+    font-size: 2rem; } }
+
+@media (max-width: 575px) {
+  .project-info {
+    font-size: 1.7rem; } }
+
 .contact-text {
   font-size: 4rem;
   text-align: center;
