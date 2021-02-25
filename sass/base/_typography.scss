@@ -38,11 +38,11 @@ h {
     
     &1 {
         font-family: 'Cherry Cream Soda', cursive;
-        font-size: 13rem;
+        font-size: 11rem;
         color: $color-primary;
 
         @media (min-width: 992px) and (max-width: 1199px) {
-            font-size: 10rem;
+            font-size: 9rem;
         }
 
         @media (min-width: 768px) and (max-width: 991px) {
@@ -54,7 +54,7 @@ h {
         }
 
         @media (max-width: 575px) {
-            font-size: 4rem;
+            font-size: 3rem;
         }
     }
 

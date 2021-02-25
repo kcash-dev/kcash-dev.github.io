@@ -52,11 +52,11 @@ i {
 
 h1 {
   font-family: 'Cherry Cream Soda', cursive;
-  font-size: 13rem;
+  font-size: 11rem;
   color: #dd571c; }
   @media (min-width: 992px) and (max-width: 1199px) {
     h1 {
-      font-size: 10rem; } }
+      font-size: 9rem; } }
   @media (min-width: 768px) and (max-width: 991px) {
     h1 {
       font-size: 7rem; } }
@@ -65,7 +65,7 @@ h1 {
       font-size: 5rem; } }
   @media (max-width: 575px) {
     h1 {
-      font-size: 4rem; } }
+      font-size: 3rem; } }
 
 h2 {
   font-family: 'Cherry Cream Soda', cursive;
@@ -394,8 +394,8 @@ li {
         height: 40rem; } }
     @media (min-width: 576px) and (max-width: 767px) {
       .profile-photo__shape {
-        width: 30rem;
-        height: 30rem; } }
+        width: 25rem;
+        height: 25rem; } }
     @media (max-width: 575px) {
       .profile-photo__shape {
         width: 15rem;
