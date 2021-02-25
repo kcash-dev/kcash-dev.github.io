@@ -62,10 +62,10 @@ h1 {
       font-size: 7rem; } }
   @media (min-width: 576px) and (max-width: 767px) {
     h1 {
-      font-size: 4rem; } }
+      font-size: 5rem; } }
   @media (max-width: 575px) {
     h1 {
-      font-size: 3rem; } }
+      font-size: 4rem; } }
 
 h2 {
   font-family: 'Cherry Cream Soda', cursive;
@@ -98,7 +98,7 @@ h3 {
       font-size: 5rem; } }
   @media (min-width: 576px) and (max-width: 767px) {
     h3 {
-      font-size: 5rem; } }
+      font-size: 4.5rem; } }
   @media (max-width: 575px) {
     h3 {
       font-size: 4rem; } }
@@ -110,13 +110,13 @@ h4 {
   text-align: center; }
   @media (min-width: 992px) and (max-width: 1199px) {
     h4 {
-      font-size: 4rem; } }
+      font-size: 4.5rem; } }
   @media (min-width: 768px) and (max-width: 991px) {
     h4 {
       font-size: 4rem; } }
   @media (min-width: 576px) and (max-width: 767px) {
     h4 {
-      font-size: 2rem; } }
+      font-size: 3.5rem; } }
   @media (max-width: 575px) {
     h4 {
       font-size: 3rem; } }
@@ -128,16 +128,16 @@ h5 {
   text-align: center; }
   @media (min-width: 992px) and (max-width: 1199px) {
     h5 {
-      font-size: 2rem; } }
+      font-size: 3.5rem; } }
   @media (min-width: 768px) and (max-width: 991px) {
     h5 {
-      font-size: 1rem; } }
+      font-size: 3rem; } }
   @media (min-width: 576px) and (max-width: 767px) {
     h5 {
-      font-size: 1rem; } }
+      font-size: 2rem; } }
   @media (max-width: 575px) {
     h5 {
-      font-size: 1rem; } }
+      font-size: 1.5rem; } }
 
 h6 {
   font-family: 'Cherry Cream Soda', cursive;
@@ -188,13 +188,13 @@ li {
       font-size: 2rem; } }
   @media (min-width: 768px) and (max-width: 991px) {
     .story__text {
-      font-size: 1.5rem; } }
+      font-size: 2.5rem; } }
   @media (min-width: 576px) and (max-width: 767px) {
     .story__text {
-      font-size: 1rem; } }
+      font-size: 2rem; } }
   @media (max-width: 575px) {
     .story__text {
-      font-size: 1rem; } }
+      font-size: 1.7rem; } }
 
 .section-about__btn {
   color: #fff;
@@ -398,13 +398,13 @@ li {
         height: 40rem; } }
     @media (min-width: 576px) and (max-width: 767px) {
       .profile-photo__shape {
-        width: 25rem;
-        height: 25rem; } }
+        width: 30rem;
+        height: 30rem; } }
     @media (max-width: 575px) {
       .profile-photo__shape {
-        width: 20rem;
-        height: 20rem;
-        right: 0%; } }
+        width: 15rem;
+        height: 15rem;
+        right: 6%; } }
   .profile-photo__img {
     width: 100%;
     backface-visibility: hidden;
@@ -575,7 +575,8 @@ li {
       width: 80%; } }
   @media (min-width: 576px) and (max-width: 767px) {
     .story {
-      width: 75%; } }
+      width: 100%;
+      transform: skewX(0deg); } }
   @media (max-width: 575px) {
     .story {
       width: 100%;
@@ -701,18 +702,15 @@ li {
 .main-text {
   position: relative;
   height: 85vh; }
-  @media (min-width: 992px) and (max-width: 1199px) {
-    .main-text {
-      height: 75vh; } }
   @media (min-width: 768px) and (max-width: 991px) {
     .main-text {
       height: 65vh; } }
   @media (min-width: 576px) and (max-width: 767px) {
     .main-text {
-      height: 55vh; } }
+      height: 35vh; } }
   @media (max-width: 575px) {
     .main-text {
-      height: 35vh; } }
+      height: 25vh; } }
   .main-text__shape {
     position: absolute;
     background-color: rgba(28, 179, 221, 0.6);

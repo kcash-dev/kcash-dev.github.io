@@ -18,7 +18,8 @@
     }
 
     @media (min-width: 576px) and (max-width: 767px) { 
-        width: 75%;
+        width: 100%;
+        transform: skewX(0deg);
     }
 
     @media (max-width: 575px) {
