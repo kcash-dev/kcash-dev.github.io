@@ -1,6 +1,23 @@
 .icon {
     transform: translateX(6rem) skew(-2deg);
     transition: all .5s;
+
+    @media (min-width: 992px) and (max-width: 1199px) {
+        transform: translateX(3rem) skew(-2deg);
+    }
+
+    @media (min-width: 768px) and (max-width: 991px) {
+        transform: translateX(-1rem) skew(-4deg);
+    }
+
+    @media (min-width: 576px) and (max-width: 767px) { 
+        transform: translateX(-2rem) skew(-6deg);
+    }
+
+    @media (max-width: 575px) {
+        transform: translateX(-2rem) skew(-12deg);
+    }
+
     &:hover {
         transform: translateY(-.7rem) translateX(6rem) skew(-2deg);
     }

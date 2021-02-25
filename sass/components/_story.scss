@@ -50,8 +50,9 @@
         }
 
         @media (min-width: 576px) and (max-width: 767px) { 
-            width: 15rem;
-            height: 15rem;
+            width: 18rem;
+            height: 18rem;
+            float: none;
         }
 
         @media (max-width: 575px) {
@@ -72,8 +73,14 @@
     &__text {
         transform: skewX(8deg);
 
+        @media (min-width: 576px) and (max-width: 767px) { 
+            transform: skewX(0deg);
+            padding-top: 2rem;
+        }
+
         @media (max-width: 575px) {
             transform: skewX(0deg);
+            padding-top: 2rem;
         }
     }
 

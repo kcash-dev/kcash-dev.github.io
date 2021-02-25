@@ -235,15 +235,15 @@ li {
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .section-articles__card__project__caption h4 {
-    font-size: 3rem; } }
+    font-size: 4rem; } }
 
 @media (min-width: 768px) and (max-width: 991px) {
   .section-articles__card__project__caption h4 {
-    font-size: 2.5rem; } }
+    font-size: 3rem; } }
 
 @media (min-width: 576px) and (max-width: 767px) {
   .section-articles__card__project__caption h4 {
-    font-size: 2rem; } }
+    font-size: 3rem; } }
 
 @media (max-width: 575px) {
   .section-articles__card__project__caption h4 {
@@ -602,8 +602,9 @@ li {
         height: 20rem; } }
     @media (min-width: 576px) and (max-width: 767px) {
       .story__shape {
-        width: 15rem;
-        height: 15rem; } }
+        width: 18rem;
+        height: 18rem;
+        float: none; } }
     @media (max-width: 575px) {
       .story__shape {
         height: 15rem;
@@ -617,15 +618,32 @@ li {
     transform: translateX(-6rem); }
   .story__text {
     transform: skewX(8deg); }
+    @media (min-width: 576px) and (max-width: 767px) {
+      .story__text {
+        transform: skewX(0deg);
+        padding-top: 2rem; } }
     @media (max-width: 575px) {
       .story__text {
-        transform: skewX(0deg); } }
+        transform: skewX(0deg);
+        padding-top: 2rem; } }
   .story:hover .story__img {
     transform: translateX(-6rem) scale(1.3); }
 
 .icon {
   transform: translateX(6rem) skew(-2deg);
   transition: all .5s; }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .icon {
+      transform: translateX(3rem) skew(-2deg); } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .icon {
+      transform: translateX(-1rem) skew(-4deg); } }
+  @media (min-width: 576px) and (max-width: 767px) {
+    .icon {
+      transform: translateX(-2rem) skew(-6deg); } }
+  @media (max-width: 575px) {
+    .icon {
+      transform: translateX(-2rem) skew(-12deg); } }
   .icon:hover {
     transform: translateY(-0.7rem) translateX(6rem) skew(-2deg); }
   .icon:active {
