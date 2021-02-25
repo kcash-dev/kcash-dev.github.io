@@ -604,12 +604,15 @@ li {
       .story__shape {
         width: 18rem;
         height: 18rem;
-        float: none; } }
+        float: none;
+        transform: skewX(0deg);
+        margin: 0 auto; } }
     @media (max-width: 575px) {
       .story__shape {
         height: 15rem;
         width: 15rem;
-        transform: translateX(3rem) skewX(0deg);
+        transform: skewX(0deg);
+        margin: 0 auto;
         float: none; } }
   .story__img {
     height: 100%;
