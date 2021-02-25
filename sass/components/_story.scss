@@ -1,5 +1,5 @@
 .story {
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
     box-shadow: $shadow;
     background-color: rgba($color-white, .6);
@@ -10,15 +10,15 @@
     transform: skewX(-8deg);
 
     @media only screen and (min-width: 1200px) {
-
+        
     }
 
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
-        width: 85%;
+        transform: skewX(-6deg);
     }
 
     @media only screen and (min-width: 768px) and (max-width: 991px) {
-        width: 80%;
+        transform: skewX(-4deg);
     }
 
     @media only screen and (min-width: 600px) and (max-width: 767px) { 
@@ -85,6 +85,18 @@
     &__text {
         transform: skewX(8deg);
 
+        @media only screen and (min-width: 1200px) {
+            
+        }
+
+        @media only screen and (min-width: 992px) and (max-width: 1199px) {
+            transform: skewX(6deg);
+        }
+
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+            transform: skewX(4deg);
+        }
+        
         @media only screen and (min-width: 600px) and (max-width: 767px) { 
             transform: skewX(0deg);
             padding-top: 2rem;

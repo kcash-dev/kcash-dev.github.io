@@ -32,7 +32,7 @@
             height: 7rem;
         }
     
-        @media only screen and (max-width: 600px) {
+        @media only screen and (max-width: 599px) {
             width: 20rem;
             height: 5rem;
             padding: 1rem;
@@ -60,6 +60,22 @@
 
 .contact-text {
     transform: skew(8deg);
+
+    @media only screen and (min-width: 1200px) {
+            
+    }
+
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+        
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+        
+    }
+
+    @media only screen and (min-width: 600px) and (max-width: 767px) { 
+        transform: skew(0);
+    }
 
     @media only screen and (max-width: 600px) {
         transform: skew(0);

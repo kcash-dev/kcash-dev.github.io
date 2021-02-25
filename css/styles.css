@@ -200,10 +200,10 @@ li {
       font-size: 2rem; } }
   @media (min-width: 768px) and (max-width: 991px) {
     .story__text {
-      font-size: 2.5rem; } }
+      font-size: 2rem; } }
   @media (min-width: 576px) and (max-width: 767px) {
     .story__text {
-      font-size: 2rem; } }
+      font-size: 1.5rem; } }
   @media only screen and (max-width: 600px) {
     .story__text {
       font-size: 1.7rem; } }
@@ -481,7 +481,7 @@ li {
     @media only screen and (min-width: 600px) and (max-width: 767px) {
       .section-projects__card__side {
         height: 85%; } }
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 599px) {
       .section-projects__card__side {
         height: 80%; } }
     .section-projects__card__side--back {
@@ -584,7 +584,7 @@ li {
   cursor: pointer; }
 
 .story {
-  width: 90%;
+  width: 85%;
   margin: 0 auto;
   box-shadow: 0 2rem 3rem rgba(221, 87, 28, 0.8);
   background-color: rgba(255, 255, 255, 0.6);
@@ -595,10 +595,10 @@ li {
   transform: skewX(-8deg); }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .story {
-      width: 85%; } }
+      transform: skewX(-6deg); } }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .story {
-      width: 80%; } }
+      transform: skewX(-4deg); } }
   @media only screen and (min-width: 600px) and (max-width: 767px) {
     .story {
       width: 100%;
@@ -648,6 +648,12 @@ li {
     transform: translateX(-6rem); }
   .story__text {
     transform: skewX(8deg); }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .story__text {
+        transform: skewX(6deg); } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .story__text {
+        transform: skewX(4deg); } }
     @media only screen and (min-width: 600px) and (max-width: 767px) {
       .story__text {
         transform: skewX(0deg);
@@ -670,14 +676,38 @@ li {
       transform: translateX(-1rem) skew(-4deg); } }
   @media only screen and (min-width: 600px) and (max-width: 767px) {
     .icon {
-      transform: translateX(-2rem) skew(-6deg); } }
+      transform: translateX(-2rem) skew(-10deg); } }
   @media only screen and (max-width: 600px) {
     .icon {
       transform: translateX(-2rem) skew(-12deg); } }
   .icon:hover {
     transform: translateY(-0.7rem) translateX(6rem) skew(-2deg); }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .icon:hover {
+        transform: translateY(-0.7rem) translateX(3rem) skew(-2deg); } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .icon:hover {
+        transform: translateY(-0.7rem) translateX(-1rem) skew(-4deg); } }
+    @media only screen and (min-width: 600px) and (max-width: 767px) {
+      .icon:hover {
+        transform: translateY(-0.7rem) translateX(-2rem) skew(-10deg); } }
+    @media only screen and (max-width: 600px) {
+      .icon:hover {
+        transform: translateY(-0.7rem) translateX(-2rem) skew(-12deg); } }
   .icon:active {
     transform: translateY(0) translateX(6rem) skew(-2deg); }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .icon:active {
+        transform: translateY(0) translateX(3rem) skew(-2deg); } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .icon:active {
+        transform: translateY(0) translateX(-1rem) skew(-4deg); } }
+    @media only screen and (min-width: 600px) and (max-width: 767px) {
+      .icon:active {
+        transform: translateY(0) translateX(-2rem) skew(-10deg); } }
+    @media only screen and (max-width: 600px) {
+      .icon:active {
+        transform: translateY(0) translateX(-2rem) skew(-12deg); } }
 
 .row {
   max-width: 90rem;
@@ -780,7 +810,7 @@ li {
       .section-about__btn {
         width: 25rem;
         height: 7rem; } }
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 599px) {
       .section-about__btn {
         width: 20rem;
         height: 5rem;
@@ -800,6 +830,9 @@ li {
 
 .contact-text {
   transform: skew(8deg); }
+  @media only screen and (min-width: 600px) and (max-width: 767px) {
+    .contact-text {
+      transform: skew(0); } }
   @media only screen and (max-width: 600px) {
     .contact-text {
       transform: skew(0); } }

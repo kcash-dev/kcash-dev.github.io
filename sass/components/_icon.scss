@@ -15,7 +15,7 @@
     }
 
     @media only screen and (min-width: 600px) and (max-width: 767px) { 
-        transform: translateX(-2rem) skew(-6deg);
+        transform: translateX(-2rem) skew(-10deg);
     }
 
     @media only screen and (max-width: 600px) {
@@ -24,10 +24,42 @@
 
     &:hover {
         transform: translateY(-.7rem) translateX(6rem) skew(-2deg);
+
+        @media only screen and (min-width: 992px) and (max-width: 1199px) {
+            transform: translateY(-.7rem) translateX(3rem) skew(-2deg);
+        }
+    
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+            transform: translateY(-.7rem) translateX(-1rem) skew(-4deg);
+        }
+    
+        @media only screen and (min-width: 600px) and (max-width: 767px) { 
+            transform: translateY(-.7rem) translateX(-2rem) skew(-10deg);
+        }
+    
+        @media only screen and (max-width: 600px) {
+            transform: translateY(-.7rem) translateX(-2rem) skew(-12deg);
+        }
     }
 
     &:active {
         transform: translateY(0) translateX(6rem) skew(-2deg);
+
+        @media only screen and (min-width: 992px) and (max-width: 1199px) {
+            transform: translateY(0) translateX(3rem) skew(-2deg);
+        }
+    
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+            transform: translateY(0) translateX(-1rem) skew(-4deg);
+        }
+    
+        @media only screen and (min-width: 600px) and (max-width: 767px) { 
+            transform: translateY(0) translateX(-2rem) skew(-10deg);
+        }
+    
+        @media only screen and (max-width: 600px) {
+            transform: translateY(0) translateX(-2rem) skew(-12deg);
+        }
     }
 
     &__linkedin {
