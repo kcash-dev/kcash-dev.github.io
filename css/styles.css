@@ -80,7 +80,7 @@ h1 {
       font-size: 5rem; } }
   @media only screen and (max-width: 600px) {
     h1 {
-      font-size: 3rem; } }
+      font-size: 2.5rem; } }
 
 h2 {
   font-family: 'Cherry Cream Soda', cursive;
@@ -152,7 +152,7 @@ h5 {
       font-size: 2rem; } }
   @media only screen and (max-width: 600px) {
     h5 {
-      font-size: 1.5rem; } }
+      font-size: .8rem; } }
 
 h6 {
   font-family: 'Cherry Cream Soda', cursive;
@@ -429,7 +429,8 @@ li {
       .profile-photo__shape {
         width: 15rem;
         height: 15rem;
-        right: 6%; } }
+        right: 6%;
+        transform: translateY(5rem); } }
   .profile-photo__img {
     width: 100%;
     backface-visibility: hidden;
