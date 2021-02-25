@@ -1,6 +1,3 @@
-.active {
-  background-color: rgba(255, 255, 255, 0.8); }
-
 *,
 *::after,
 *::before {
@@ -25,6 +22,24 @@ html {
 i {
   transform: skewX(12deg);
   margin: 0 auto; }
+
+.active {
+  background-color: rgba(255, 255, 255, 0.8); }
+
+.html {
+  background-color: rgba(221, 134, 28, 0.7); }
+
+.css {
+  background-color: rgba(133, 208, 227, 0.7); }
+
+.js {
+  background-color: rgba(29, 136, 92, 0.7); }
+
+.fb-fs {
+  background-color: rgba(221, 37, 28, 0.7); }
+
+.other {
+  background-color: rgba(128, 128, 128, 0.7); }
 
 html body {
   font-family: 'Raleway', sans-serif; }
@@ -214,21 +229,20 @@ li {
 .section-projects__h3 {
   color: #dd571c; }
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .section-projects__text {
-    font-size: 1.4rem; } }
-
-@media (min-width: 768px) and (max-width: 991px) {
-  .section-projects__text {
-    font-size: 1.3rem; } }
-
-@media (min-width: 576px) and (max-width: 767px) {
-  .section-projects__text {
-    font-size: 1.7rem; } }
-
-@media only screen and (max-width: 600px) {
-  .section-projects__text {
-    font-size: 1.5rem; } }
+.section-projects__text {
+  color: #fff; }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .section-projects__text {
+      font-size: 1.4rem; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .section-projects__text {
+      font-size: 1.3rem; } }
+  @media (min-width: 576px) and (max-width: 767px) {
+    .section-projects__text {
+      font-size: 1.7rem; } }
+  @media only screen and (max-width: 600px) {
+    .section-projects__text {
+      font-size: 1.5rem; } }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .section-articles__card__project__caption h4 {
@@ -265,6 +279,21 @@ li {
   font-size: 4rem;
   text-align: center;
   font-weight: 400; }
+
+.html {
+  font-weight: 600; }
+
+.css {
+  font-weight: 600; }
+
+.js {
+  font-weight: 600; }
+
+.fb-fs {
+  font-weight: 600; }
+
+.other {
+  font-weight: 600; }
 
 .u-center-text {
   text-align: center; }
@@ -457,7 +486,8 @@ li {
         height: 80%; } }
     .section-projects__card__side--back {
       transform: rotateX(180deg);
-      text-align: center; }
+      text-align: center;
+      background-color: #000; }
   .section-projects__card:hover .section-projects__card__side--front {
     transform: rotateX(-180deg); }
   .section-projects__card:hover .section-projects__card__side--back {

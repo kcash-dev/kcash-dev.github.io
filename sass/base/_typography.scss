@@ -297,6 +297,8 @@ li {
 
     &__text {
 
+        color: $color-white;
+
         @media only screen and (min-width: 1200px) {
 
         }
@@ -380,4 +382,26 @@ li {
     font-size: 4rem;
     text-align: center;
     font-weight: 400;
+}
+
+// Highlights
+
+.html {
+    font-weight: 600;
+}
+
+.css {
+    font-weight: 600;
+}
+
+.js {
+    font-weight: 600;
+}
+
+.fb-fs {
+    font-weight: 600;
+}
+
+.other {
+    font-weight: 600;
 }

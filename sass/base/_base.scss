@@ -31,3 +31,29 @@ i {
     transform: skewX(12deg);
     margin: 0 auto;
 }
+
+.active {
+    background-color: rgba($color-white, .8);
+}
+
+// Highlights
+
+.html {
+    background-color: rgba($color-primary-light, .7);
+}
+
+.css {
+    background-color: rgba($color-secondary-light, .7);
+}
+
+.js {
+    background-color: rgba($color-tertiary-light, .7);
+}
+
+.fb-fs {
+    background-color: rgba($color-primary-dark, .7);
+}
+
+.other {
+    background-color: rgba($color-gray, .7);
+}
