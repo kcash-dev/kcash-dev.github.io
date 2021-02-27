@@ -17,7 +17,6 @@ html {
         font-size: $default-font-size;
         line-height: 1.7;
         box-sizing: border-box;
-        
     }
 }
 
@@ -25,12 +24,23 @@ html {
 .section-articles,
 .section-about,
 .section-contact {
-    display: none;
+    opacity: 1;
+    transition: opacity 1s, height 0;
 }
 
 i {
     transform: skewX(12deg);
     margin: 0 auto;
+}
+
+// Project tabs
+
+.hidden {
+    opacity: 0;
+    transition: opacity 1s, height 0 1s;
+    height: 0;
+    width: 0;
+    display: none;
 }
 
 .active {

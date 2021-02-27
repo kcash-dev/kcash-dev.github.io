@@ -9,104 +9,104 @@ const contactLink = document.querySelector('#nav__contact');
 
 projectsLink.addEventListener('click', (e) => {
     e.preventDefault();
-    if (projects.style.display === 'none') {
-        projects.style.display = 'block';
+    if (projects.classList.contains('hidden')) {
+        projects.classList.remove('hidden');
         projectsLink.classList.add('active');
     } else {
-        projects.style.display = 'none';
+        projects.classList.add('hidden');
         projectsLink.classList.remove('active');
     };
 
-    if (about.style.display === 'block') {
-        about.style.display = 'none';
+    if (about.classList.contains('hidden') === false) {
+        about.classList.add('hidden');
         aboutLink.classList.remove('active');
-    }
+    };
 
-    if (articles.style.display === 'block') {
-        articles.style.display = 'none';
+    if (articles.classList.contains('hidden') === false) {
+        articles.classList.add('hidden');
         articlesLink.classList.remove('active');
-    }
+    };
 
-    if (contact.style.display === 'block') {
-        contact.style.display = 'none';
+    if (contact.classList.contains('hidden') === false) {
+        contact.classList.add('hidden');
         contactLink.classList.remove('active');
-    }
+    };
 });
 
 aboutLink.addEventListener('click', (e) => {
     e.preventDefault();
-    if (about.style.display === 'none') {
-        about.style.display = 'block';
+    if (about.classList.contains('hidden')) {
+        about.classList.remove('hidden');
         aboutLink.classList.add('active');
     } else {
-        about.style.display = 'none';
+        about.classList.add('hidden');
         aboutLink.classList.remove('active');
     };
 
-    if (projects.style.display === 'block') {
-        projects.style.display = 'none';
+    if (projects.classList.contains('hidden') === false) {
+        projects.classList.add('hidden');
         projectsLink.classList.remove('active');
-    }
+    };
 
-    if (articles.style.display === 'block') {
-        articles.style.display = 'none';
+    if (articles.classList.contains('hidden') === false) {
+        articles.classList.add('hidden');
         articlesLink.classList.remove('active');
-    }
+    };
 
-    if (contact.style.display === 'block') {
-        contact.style.display = 'none';
+    if (contact.classList.contains('hidden') === false) {
+        contact.classList.add('hidden');
         contactLink.classList.remove('active');
-    }
+    };
 });
 
 articlesLink.addEventListener('click', (e) => {
     e.preventDefault();
-    if (articles.style.display === 'none') {
-        articles.style.display = 'block';
+    if (articles.classList.contains('hidden')) {
+        articles.classList.remove('hidden');
         articlesLink.classList.add('active');
     } else {
-        articles.style.display = 'none';
+        articles.classList.add('hidden');
         articlesLink.classList.remove('active');
     };
 
-    if (projects.style.display === 'block') {
-        projects.style.display = 'none';
-        projectsLink.classList.remove('active');
-    }
-
-    if (about.style.display === 'block') {
-        about.style.display = 'none';
+    if (about.classList.contains('hidden') === false) {
+        about.classList.add('hidden');
         aboutLink.classList.remove('active');
-    }
+    };
 
-    if (contact.style.display === 'block') {
-        contact.style.display = 'none';
+    if (projects.classList.contains('hidden') === false) {
+        projects.classList.add('hidden');
+        projectsLink.classList.remove('active');
+    };
+
+    if (contact.classList.contains('hidden') === false) {
+        contact.classList.add('hidden');
         contactLink.classList.remove('active');
-    }
+    };
 });
 
 contactLink.addEventListener('click', (e) => {
     e.preventDefault();
-    if (contact.style.display === 'none') {
-        contact.style.display = 'block';
+    if (contact.classList.contains('hidden')) {
+        contact.classList.remove('hidden');
         contactLink.classList.add('active');
     } else {
-        contact.style.display = 'none';
+        contact.classList.add('hidden');
         contactLink.classList.remove('active');
     };
 
-    if (projects.style.display === 'block') {
-        projects.style.display = 'none';
-        projectsLink.classList.remove('active');
-    }
-
-    if (about.style.display === 'block') {
-        about.style.display = 'none';
+    if (about.classList.contains('hidden') === false) {
+        about.classList.add('hidden');
         aboutLink.classList.remove('active');
-    }
+    };
 
-    if (articles.style.display === 'block') {
-        articles.style.display = 'none';
+    if (articles.classList.contains('hidden') === false) {
+        articles.classList.add('hidden');
         articlesLink.classList.remove('active');
-    }
+    };
+
+    if (projects.classList.contains('hidden') === false) {
+        projects.classList.add('hidden');
+        projectsLink.classList.remove('active');
+    };
 });
