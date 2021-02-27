@@ -15,8 +15,14 @@ html {
     box-sizing: border-box; }
 
 i {
-  transform: skewX(12deg);
-  margin: 0 auto; }
+  transform: skewX(10deg); }
+  @media only screen and (min-width: 500px) and (max-width: 599px) {
+    i {
+      transform: skewX(12deg); } }
+  @media only screen and (max-width: 499px) {
+    i {
+      transform: skewX(12deg);
+      margin: 0 1rem; } }
 
 .section-projects,
 .section-articles,
@@ -781,30 +787,30 @@ li {
   .row .col-1-of-4 {
     width: calc((100% - 3 * 6rem) / 4); }
 
-.row-nav {
+.row-secondary {
   max-width: 85rem;
   margin: 0 auto; }
   @media only screen and (max-width: 600px) {
-    .row-nav {
+    .row-secondary {
       max-width: 60rem; } }
-  .row-nav:not(:last-child) {
+  .row-secondary:not(:last-child) {
     margin-bottom: 8rem; }
-  .row-nav::after {
+  .row-secondary::after {
     content: "";
     clear: both;
     display: table; }
-  .row-nav [class^="col-"] {
+  .row-secondary [class^="col-"] {
     float: left;
     text-align: center; }
-    .row-nav [class^="col-"]:not(:last-child) {
+    .row-secondary [class^="col-"]:not(:last-child) {
       margin-right: 1rem; }
-  .row-nav .col-1-of-2 {
+  .row-secondary .col-1-of-2 {
     width: calc((100% - 1rem) / 2); }
-  .row-nav .col-1-of-3 {
+  .row-secondary .col-1-of-3 {
     width: calc((100% - 2 * 1rem) / 3); }
-  .row-nav .col-2-of-3 {
+  .row-secondary .col-2-of-3 {
     width: calc(2 * ((100% - 2 * 1rem) / 3) + 1rem); }
-  .row-nav .col-1-of-4 {
+  .row-secondary .col-1-of-4 {
     width: calc((100% - 3 * 1rem) / 4); }
 
 .row-projects {
@@ -834,6 +840,35 @@ li {
   .row-projects .col-2-of-3 {
     width: calc(2 * ((100% - 2 * 6rem) / 3) + 6rem); }
   .row-projects .col-1-of-4 {
+    width: calc((100% - 3 * 6rem) / 4); }
+
+.row-icon {
+  max-width: 180rem; }
+  .row-icon::after {
+    content: "";
+    clear: both;
+    display: table; }
+  .row-icon [class^="col-"] {
+    float: left;
+    text-align: left; }
+    .row-icon [class^="col-"]:not(:last-child) {
+      margin-right: 6rem; }
+  .row-icon .col-1-of-2 {
+    width: calc((100% - 6rem) / 2); }
+  .row-icon .col-1-of-3 {
+    width: calc((100% - 2 * 6rem) / 3); }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .row-icon .col-1-of-3 {
+        width: 100%; } }
+    @media only screen and (min-width: 600px) and (max-width: 767px) {
+      .row-icon .col-1-of-3 {
+        width: 100%; } }
+    @media only screen and (max-width: 600px) {
+      .row-icon .col-1-of-3 {
+        width: 100%; } }
+  .row-icon .col-2-of-3 {
+    width: calc(2 * ((100% - 2 * 6rem) / 3) + 6rem); }
+  .row-icon .col-1-of-4 {
     width: calc((100% - 3 * 6rem) / 4); }
 
 .main-text {

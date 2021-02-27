@@ -21,8 +21,24 @@ html {
 }
 
 i {
-    transform: skewX(12deg);
-    margin: 0 auto;
+    transform: skewX(10deg);
+
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+        
+    }
+
+    @media only screen and (min-width: 600px) and (max-width: 767px) { 
+        
+    }
+
+    @media only screen and (min-width: 500px) and (max-width: 599px) {
+        transform: skewX(12deg);
+    }
+
+    @media only screen and (max-width: 499px) {
+        transform: skewX(12deg);
+        margin: 0 1rem;
+    }
 }
 
 .section-projects,
