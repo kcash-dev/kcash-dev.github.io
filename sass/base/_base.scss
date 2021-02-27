@@ -20,17 +20,17 @@ html {
     }
 }
 
+i {
+    transform: skewX(12deg);
+    margin: 0 auto;
+}
+
 .section-projects,
 .section-articles,
 .section-about,
 .section-contact {
     opacity: 1;
     transition: opacity 1s, height 0;
-}
-
-i {
-    transform: skewX(12deg);
-    margin: 0 auto;
 }
 
 // Project tabs
